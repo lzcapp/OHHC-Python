@@ -6,9 +6,21 @@
 }
 
 body {
-    font-family: 'Space Mono', monospace, 'Noto Serif SC', 'Noto Sans SC Sliced';
+    font-family: 'JetBrains Mono', 'JetBrains Mono';
     font-feature-settings: "liga" 0;
     font-size: 5mm;
+}
+
+.description {
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+.lunar {
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+.main-lunar {
+    font-family: 'JetBrains Mono', sans-serif;
 }
 
 .monthly h1 {
