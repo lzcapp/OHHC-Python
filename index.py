@@ -63,6 +63,7 @@ for j in shortMonth:
 
 
 # 判断一个年份是否是闰年
+# noinspection PyPep8Naming
 def isLeapYear(year):
     # 世纪年份能够被400整除为闰年
     if year % 100 == 0 and year % 400 == 0:
@@ -74,6 +75,7 @@ def isLeapYear(year):
 
 
 # 判断day是否是month的最后一天
+# noinspection PyPep8Naming
 def isLastDayOfMonth(num_month, num_day):
     if num_month == 2 and isLeapYear(YEAR):
         return num_day == leapDay
