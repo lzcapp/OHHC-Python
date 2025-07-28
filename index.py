@@ -159,14 +159,14 @@ for dateIndex in range(0, len(dates)):
     if date.getDay() == 1:
         newMonth.append(pageIndex)
 
+    weekday = date.getWeek() - 1
+    if weekday == -1:
+        weekday = 6
+
     # 生成日历前面的单独月份
     if MONTHLY:
         date_day = date.getDay()
         date_month = date.getMonth()
-
-        weekday = date.getWeek() - 1
-        if weekday == -1:
-            weekday = 6
 
         if date_day == 1:
             if PUNCHED:
