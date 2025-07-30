@@ -241,9 +241,9 @@ for dateIndex in range(0, len(dates)):
             ldata = date.getLunar().getJieQi()
         mlclass = 'main-lunar red'
         if len(ldata) == 0:
-            if date.getLunar().getMonthInChinese() == '初一':
+            if date.getLunar().getDayInChinese() == '初一':
                 mlclass = 'main-lunar red'
-                ldata = date.getLunar().getMonthInChinese()
+                ldata = date.getLunar().getMonthInChinese() + '月'
             else:
                 mlclass = 'main-lunar'
                 ldata = date.getLunar().getDayInChinese()
@@ -299,9 +299,9 @@ for dateIndex in range(0, len(dates)):
         ldata = date.getLunar().getJieQi()
     lclass = 'lunar red'
     if len(ldata) == 0:
-        if date.getLunar().getMonthInChinese() == '初一':
+        if date.getLunar().getDayInChinese() == '初一':
             lclass = 'lunar red'
-            ldata = date.getLunar().getMonthInChinese()
+            ldata = date.getLunar().getMonthInChinese() + '月'
         else:
             lclass = 'lunar'
             ldata = date.getLunar().getDayInChinese()
