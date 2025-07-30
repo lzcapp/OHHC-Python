@@ -29,7 +29,7 @@ HIGHLIGHT = [
     'apacheconf', 'apl', 'applescript', 'arduino', 'asciidoc', 'aspnet',
     'autohotkey', 'autoit', 'bash', 'basic', 'batch', 'bison', 'brainfuck',
     'bro', 'c', 'csharp', 'cpp', 'coffeescript', 'crystal', 'css-extras', 'd',
-    'dart', 'django', 'diff', 'docker', 'eiffel', 'elixir', 'erlang', 'fsharp',
+    'dart', 'diff', 'django', 'docker', 'eiffel', 'elixir', 'erlang', 'fsharp',
     'flow', 'fortran', 'gherkin', 'git', 'glsl', 'go', 'graphql', 'groovy',
     'haml', 'handlebars', 'haskell', 'haxe', 'http', 'icon', 'inform7', 'ini',
     'j', 'java', 'jolie', 'json', 'julia', 'keyman', 'kotlin', 'latex', 'less',
@@ -38,7 +38,7 @@ HIGHLIGHT = [
     'objectivec', 'ocaml', 'opencl', 'oz', 'parigp', 'parser', 'pascal',
     'perl', 'php', 'php-extras', 'powershell', 'processing', 'prolog',
     'properties', 'protobuf', 'pug', 'puppet', 'pure', 'python', 'q', 'qore',
-    'r', 'jsx', 'renpy', 'reason', 'rest', 'rip', 'roboconf', 'ruby', 'rust',
+    'r', 'jsx', 'reason', 'renpy', 'rest', 'rip', 'roboconf', 'ruby', 'rust',
     'sas', 'sass', 'scss', 'scala', 'scheme', 'smalltalk', 'smarty', 'sql',
     'stylus', 'swift', 'tcl', 'textile', 'twig', 'typescript', 'vbnet',
     'verilog', 'vhdl', 'vim', 'wiki', 'xojo', 'yaml'
